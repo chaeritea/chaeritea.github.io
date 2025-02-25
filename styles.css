@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b685b;
+}
+
+#header, #content, #footer {
+    padding: 20px;
+    color: #c0c0c0;
+}
+
+#header {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #282033;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #c0c0c0;
+}
+
+#content {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #beb4d7;
+    color: black
+}
+
+#footer {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #282033;
+}
