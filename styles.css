@@ -98,7 +98,7 @@ body, html {
     width: 80%;
     margin: 0 auto 5% auto;
     background-color: #daefd7;
-    border: 10px solid #061900;
+    border: 10px solid #000000;
     border-radius: 15px;
     text-align: center;
     color: black;
@@ -205,6 +205,33 @@ body, html {
     color: #daefd7;
     margin: 1%;
     text-decoration: none;
+}
+
+.profile {
+    margin-top: 5%;
+    padding: 0;
+
+    text-align: left;
+}
+
+.profile img {
+    display: inline-block;
+    width: 45%;
+    margin: 1%;
+
+    border: 15px solid #061900;
+    border-radius: 50px;
+}
+
+.bio {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+    margin: 1%;
+    padding: 0;
+
+    vertical-align: top;
+    font-size: 20px;
 }
 
 #footer {
