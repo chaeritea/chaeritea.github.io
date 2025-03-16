@@ -234,6 +234,26 @@ body, html {
     font-size: 20px;
 }
 
+.project-summary {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #061900;
+    border: 10px solid #000000;
+    border-radius: 15px;
+
+    color: #daefd7;
+}
+
+.project-summary ul {
+    list-style-type: none;
+
+    font-size: 20px;
+
+    padding: 0;
+}
+
 #footer {
     width: 100%;
     margin-left: auto;
