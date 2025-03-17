@@ -20,7 +20,7 @@
         </div>
         <div class="content" style="margin-top: 100px; height: 80%">
             <h1 style="font-size: 50px">Suzume Portals</h1>
-            <img src="../images/suzume.png" alt="Suzume Portals" style="width: 80%; margin: 1%; border: 10px solid #061900; border-radius: 30px;">
+            <img src="suzume-img/suzume_scene.gif" alt="Suzume Portals" style="width: 80%; margin: 1%; border: 10px solid #061900; border-radius: 30px;">
             <div class="project-summary">
                 <ul>
                     <li>Role - Graphics Programmer</li>
@@ -30,8 +30,18 @@
                 </ul>
             </div>
             <div class="project">
-                <h3>This page is still under construction!</h3>
-                <a href="../index.html"><h2>[ back to projects ]</h2></a>
+                <p>The goal of this project was to use a number of smaller graphical effects to create a complete and cohesive scene, inspired by the Shinkai film "Suzume" which features a door that transports the main character to a vast landscape. We wanted to represent this effect using portals, grass, and a reflective water shader.</p>
+                <img src="suzume-img/suzume_movie.gif" alt="The scene we're recreating">
+                <h2>Water Shader</h2>
+                <p>The first step in creating the water shader is to make a second camera below the water plane to mirror the player's movements. This camera captures what the player can see reflected in the water, and will later be rendered onto a texture on the water itself.</p>
+                <img src="suzume-img/ss0.png" alt="Code snippet">
+                <p>In the water shader, we can sample from the camera and transform the resulting texture so that the reflection appears at the right angle and scale.</p>
+                <img src="suzume-img/ss1.png" alt="Code snippet">
+                <p>For an added layer of realism, we can sample from alternating sine waves to create ripples in the water that will be overlaid atop the reflection texture.</p>
+                <p>Using these inputs, we can adjust the plane's normal map to warp the reflection texture.</p>
+                <img src="suzume-img/ss2.png" alt="Code snippet">
+                <p>To really sell the effect, we'll also slightly change the y-position of each point according to the normal map so that the ripples actually cause the water to move up and down slightly with each ripple.</p>
+                <img src="suzume-img/ss3.png" alt="Code snippet">
             </div>
         </div>
         <div id="footer">
