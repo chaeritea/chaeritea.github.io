@@ -254,6 +254,30 @@ body, html {
     padding: 0;
 }
 
+.project p {
+    margin-left: 10%;
+    margin-right: 10%;
+
+    font-size: 20px;
+
+    text-align: left;
+}
+
+.project a {
+    text-decoration: none;
+    color: #061900;
+    font-size: 50px;
+    margin: 2%;
+}
+
+.project img {
+    width: 60%;
+    margin: 3% auto 3% auto;
+
+    border: 10px solid #061900;
+    border-radius: 30px;
+}
+
 #footer {
     width: 100%;
     margin-left: auto;
